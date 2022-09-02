@@ -64,68 +64,26 @@ main .hot-news h1 {
   margin-left: 20px;
   position: absolute;
   bottom: 90px;
+  left: 23px;
   font-size: 3rem;
   letter-spacing: 3px;
   text-transform: uppercase;
   font-style: italic;
 }
 
-main .hot-news p {
-  left: 20px;
-  position: absolute;
-  bottom: 30px;
-  font-size: 1.7rem;
-  letter-spacing: 7px;
-}
-
-main .list-berita .berita {
-  display: flex;
-  justify-content: center;
-  margin-top: 100px;
-}
-
-main .list-berita .berita .kiri {
-  width: 20%;
-  margin-right: 50px;
-}
-
-main .list-berita .berita .kiri img {
-  width: 100%;
-  height: 384px;
-  object-fit: cover;
-}
-
-main .list-berita .berita .kanan {
-  width: 60%;
-}
-
-main .list-berita .berita .kanan .tanggal {
+main .tanggal {
   padding: 5px 30px;
   border-radius: 10px;
   background-color: #850303;
   width: fit-content;
   margin-bottom: 8px;
-  margin-top: 10px;
+  margin-top: -40px;
+  margin-left: 30px;
 }
 
-main .list-berita .berita .kanan .judul {
-  margin-bottom: 15px;
-  font-size: 1.8rem;
-}
-
-main .list-berita .berita .kanan .judul a {
-  text-decoration: none;
-  color: white;
-}
-
-main .list-berita .berita .kanan .judul a:hover {
-  background: white;
-  color: #010f24;
-  border-radius: 7px;
-  padding: 5px;
-}
-
-main .list-berita .berita .kanan .isi-berita {
+main p {
+  margin-left: 30px;
+  margin-right: 30px;
   font-size: 1.4rem;
   line-height: 40px;
   word-spacing: 10px;
